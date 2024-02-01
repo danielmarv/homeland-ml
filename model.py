@@ -16,6 +16,7 @@ crime_data = {
 
 # Merge different datasets (you'd have more data sources)
 df_traffic = pd.DataFrame(traffic_data)
+
 df_crime = pd.DataFrame(crime_data)
 
 # Assume a shared timestamp between traffic and crime data
