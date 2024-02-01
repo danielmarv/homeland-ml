@@ -5,13 +5,13 @@ from nltk.corpus import stopwords
 from gensim.models import Word2Vec
 import smart_home_library  # Your library for smart home control
 import information_library  # Your library for information retrieval
-import security_library  # Your library for home security features
+import security_library
 
 class PersonalAssistant:
     def __init__(self):
         # Initialize components and models
         self.voice_recognizer = sr.Recognizer()
-        self.nlp_model = Word2Vec.load("path/to/your/nlp/model")
+        self.nlp_model = Word2Vec.load("python main.py")
         self.smart_home = smart_home_library.SmartHomeAPI()
         self.information_retrieval = information_library.InformationRetrieval()
         self.security_system = security_library.SecuritySystem()
