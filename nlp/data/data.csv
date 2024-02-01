@@ -1,0 +1,14 @@
+text,label
+"I love this product!",positive
+"This movie is amazing.",positive
+"The service was terrible.",negative
+"I'm not sure about this.",neutral
+"This book is disappointing.",negative
+"The food was excellent!",positive
+"I had a bad experience.",negative
+"The weather is nice today.",positive
+"I love the new features in the latest update!",positive
+"The customer support was very helpful.",positive
+"This app crashes all the time. Terrible!",negative
+"I'm not impressed with the service.",negative
+"The interface is okay, but it could be better.",neutral

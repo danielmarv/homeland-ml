@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report
 
 # Load your dataset (replace 'your_dataset.csv' with your actual file)
 # Assuming your dataset has two columns: 'text' and 'label'
-data = pd.read_csv('your_dataset.csv')
+data = pd.read_csv('./data.csv')
 
 # Split the data into training and testing sets
 train_data, test_data, train_labels, test_labels = train_test_split(
